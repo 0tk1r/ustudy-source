@@ -95,7 +95,7 @@ switch ($daynumber) {
         echo "Суббота";
         break;
     case 7:
-        echo "Воскресенье"; // otkirbay
+        echo "Воскресенье"; 
         break;
     default:
         echo "Некорректное значение";
