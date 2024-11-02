@@ -95,7 +95,7 @@ switch ($daynumber) {
         echo "Суббота";
         break;
     case 7:
-        echo "Воскресенье"; 
+        echo "Воскресенье";
         break;
     default:
         echo "Некорректное значение";
@@ -105,5 +105,182 @@ echo "<br>"; // Новая строка
 
 # Задания-№5:
 
+//Решение задач с помощю террарного оператора
+$num = 1;
+$result = ($num >= 10 && $num <= 20) ? 'в диапазоне.' : 'вне диапазоне.' . '<br>';
 
+echo "Число " . $result;
 
+//Решение задачи с помощю условных операторов
+if ($num >= 10 && $num <= 20) {
+    echo "Число в диапазоне.";
+} else {
+    echo "Число вне диапазоне.";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№6:
+
+$password = "mypassword";
+
+if (strlen($password) > 8 && preg_match('/\d/', $password)) {
+    echo "Пароль принят";
+} else {
+    echo "Пароль не соответствует требованиям";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№7:
+
+$a = 6; // Число №1
+$b = 6; // Число №2
+
+if ($a > $b) {
+    echo "Число №1 больше чем число №2";
+} else if ($a < $b) {
+    echo "Число №2 больше чем число №1";
+} else {
+    echo "Число №1 и №2 равны";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№8:
+
+$month = 13;
+
+if ($month <= 0) {
+    echo "ОШИБКА!";
+} else if ($month == 1) {
+    echo "Январь.";
+} else if ($month == 2) {
+    echo "Февраль.";
+} else if ($month == 3) {
+    echo "Март.";
+} else if ($month == 4) {
+    echo "Апрель.";
+} else if ($month == 5) {
+    echo "Май.";
+} else if ($month == 6) {
+    echo "Июонь.";
+} else if ($month == 7) {
+    echo "Июоль.";
+} else if ($month == 8) {
+    echo "Август.";
+} else if ($month == 9) {
+    echo "Сентябрь";
+} else if ($month == 10) {
+    echo "Октябрь";
+} else if ($month == 11) {
+    echo "Ноябрь";
+} else if ($month == 12) {
+    echo "Декабрь";
+} else {
+    echo "В одном году только 12 месяца!";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№9:
+
+$str1 = "Hello";
+$str2 = "H  ello";
+
+if ($str1 == $str2) {
+    echo "Строки идентичны";
+} else {
+    echo "Строки различаются";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№10:
+
+$login = "admin";
+$password = "1234";
+
+if ($login == "admin" && $password == "1234") {
+    echo "Авторизация успешна";
+} else {
+    echo "Неверный логин или пароль";
+}
+
+echo "<br>"; // Новая строка 
+
+# Задания-№11:
+
+$year = 2024;
+
+if (($year % 4 == 0 && $year % 100 != 0) || $year % 400 == 0) {
+    echo "Год високосный";
+} else {
+    echo "Год не високосный";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№12:
+
+$a = 10;
+$b = 5;
+$operation = '+';
+
+switch ($operation) {
+    case '+':
+        echo $a + $b;
+        break;
+    case '-':
+        echo $a - $b;
+        break;
+    case '*':
+        echo $a * $b;
+        break;
+    case '/':
+        echo $b != 0 ? $a / $b : "Ошибка деления на ноль";
+        break;
+    default:
+        echo "Некорректная операция";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№13:
+
+$age = 20;
+$dayOfWeek = 3;
+
+if ($age > 18 && $dayOfWeek >= 1 && $dayOfWeek <= 5) {
+    echo "Рабочий день";
+} else {
+    echo "Выходной";
+}
+
+echo "<br>"; // Новая строка
+
+# Задания-№14:
+
+$num1 = 5;
+$num2 = 10;
+$num3 = 3;
+
+$min = $num1;
+if ($num2 < $min)
+    $min = $num2;
+if ($num3 < $min)
+    $min = $num3;
+
+echo "Минимальное число: $min";
+
+echo "<br>";
+
+# Задания-№15:
+
+$x = -3;
+$y = 4;
+
+if ($x > 0 && $y > 0) {
+    echo "1-й";
+}
+echo "<br>"; // Новая строка 
