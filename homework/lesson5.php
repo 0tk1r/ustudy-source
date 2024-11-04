@@ -50,12 +50,9 @@ echo '<br>'; //Новая строка
 "Днем" (с 6 до 18) или "Ночью".
 */
 
-
-
-
-
-
-
+$hour = 14;
+$rshour = ($hour >= 6 && $hour < 18) ? "День" : "Ночь";
+echo $rshour;
 
 echo '<br>'; //Новая строка 
 
@@ -66,7 +63,7 @@ echo '<br>'; //Новая строка
  */
 
 $strchecking = "password";
-$strresult = ($strchecking == "password") ? "Доступ разрешен": "Неверный пароль";
+$strresult = ($strchecking == "password") ? "Доступ разрешен" : "Неверный пароль";
 
 echo $strresult;
 
