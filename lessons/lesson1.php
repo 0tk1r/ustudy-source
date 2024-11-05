@@ -30,10 +30,10 @@ $bool = false; // jalg'an
 $boolean = true; // shin
 
 // O'zgeriwshilerdin' tipleri:
- $number = 5; int // Диапазон чисел: // -9,223,372,036,854,775,808 // +9,223,372,036,854,775,807 // 64-bit
- $num = 4.5; float // Диапазон чисел: // 1,7976931348623157E+308 // 2,22507385072014E-308 // 64-bit
+ $number = 5; // int // Диапазон чисел: // -9,223,372,036,854,775,808 // +9,223,372,036,854,775,807 // 64-bit
+ $num = 4.5;  // float // Диапазон чисел: // 1,7976931348623157E+308 // 2,22507385072014E-308 // 64-bit
  $str = "hello" // string 
- $bool = false; // boolean
+ $booll = false; // boolean
 
 // "php" tilinde bizler o'zgeriwshilerge tiplerin bermeymiz. o'zgeriwshiler alg'an ma'nisine qaray 
 //o'zi tipin belgileydi.
