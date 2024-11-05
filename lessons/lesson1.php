@@ -1,5 +1,6 @@
 <?php
-// O'zgeriwshiler ha'm olardin' tipleri (Переменные и их типы данных).
+# O'zgeriwshiler ha'm olardin' tipleri (Переменные и их типы данных).
+
 // O'zgeriwshiler degenimiz ne - O'zgeriwshiler kompyuter yacheykasindag'i qandayda
 // bir kishi yad (память) dep alamiz. Og'an bizler ma'gliwmatlardi kiritemiz ha'r turli
 // stringlar (Строкалар), intlar (числолар), boolean (Логичиские данные), ha'm bul mag'liwmatlardi
