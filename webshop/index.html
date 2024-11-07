@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onlayn Miywe Magazini</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Onlayn Miywe Magazini</h1>
+        </div>
+    </header>
+
+    <div class="product-container">
+        <!-- Tovar 1 -->
+        <div class="product" data-price="5000">
+            <img src="apple.jpg" width="360" height="360" alt="Olma">
+            <h2>Alma</h2>
+            <p>5000 UZS/kg</p>
+            <button class="add-to-cart-btn">Korzinkag'a qosiw</button>
+        </div>
+
+        <!-- Tovar 2 -->
+        <div class="product" data-price="6000">
+            <img src="grapes.jpg" width="360" height="360" alt="Uzum">
+            <h2>Ju'zim</h2>
+            <p>6000 UZS/kg</p>
+            <button class="add-to-cart-btn">Korzinkag'a qosiw</button>
+        </div>
+
+        <!-- Tovar 3 -->
+        <div class="product" data-price="8000">
+            <img src="peach.jpg" width="360" height="360" alt="Olcha">
+            <h2>Shiye</h2>
+            <p>8000 UZS/kg</p>
+            <button class="add-to-cart-btn">Korzinkag'a qosiw</button>
+        </div>
+
+        <!-- Tovar 4 -->
+        <div class="product" data-price="9000">
+            <img src="mango.jpg" width="360" height="360" alt="Mango">
+            <h2>Mango</h2>
+            <p>9000 UZS/kg</p>
+            <button class="add-to-cart-btn">Korzinkag'a qosiw</button>
+        </div>
+    </div>
+    <!-- Buy  -->
+    <div class="cart-container">
+        <h2>Korzinka</h2>
+        <ul id="cart-list"></ul>
+        <div class="cart-summary">
+            <p>Jami: <span id="total-price-cart">0</span> UZS</p>
+            <button id="purchase-btn" disabled>Sa'tip aliw</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
