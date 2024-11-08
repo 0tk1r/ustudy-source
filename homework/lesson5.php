@@ -68,3 +68,5 @@ $strresult = ($strchecking == "password") ? "Доступ разрешен" : "�
 echo $strresult;
 
 echo "<br><br>"; //Новая строка
+
+
