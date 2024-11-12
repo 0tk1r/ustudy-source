@@ -5,11 +5,7 @@
 // bir kishi yad (память) dep alamiz. Og'an bizler ma'gliwmatlardi kiritemiz ha'r turli
 // stringlar (Строкалар), intlar (числолар), boolean (Логичиские данные), ha'm bul mag'liwmatlardi
 // keyinrek o'zgerte alamiz. Bul o'zgeriwshilerdi keyin ala matematikaliq ameller islewimiz, qatarlardi
-// ekranga shigariw xizmetlerin atqaramiz.
-
-//O'zgeriwshilerdin jaratiliwi to'mendegishe:
-
-// $аты = манисы; 
+// ekranga shigariw xizme
 // $o'zgeriwshi = tipi;
 
 //O'zgeriwshini ekrang'a shig'ariw 
@@ -34,7 +30,7 @@ $boolean = true; // shin
  $number = 5; // int // Диапазон чисел: // -9,223,372,036,854,775,808 // +9,223,372,036,854,775,807 // 64-bit
  $num = 4.5;  // float // Диапазон чисел: // 1,7976931348623157E+308 // 2,22507385072014E-308 // 64-bit
  $str = "hello" // string 
- $booll = false; // boolean
+ $bool = false // boolean
 
 // "php" tilinde bizler o'zgeriwshilerge tiplerin bermeymiz. o'zgeriwshiler alg'an ma'nisine qaray 
 //o'zi tipin belgileydi.

@@ -66,7 +66,3 @@ $strchecking = "password";
 $strresult = ($strchecking == "password") ? "Доступ разрешен" : "Неверный пароль";
 
 echo $strresult;
-
-echo "<br><br>"; //Новая строка
-
-
