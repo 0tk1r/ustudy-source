@@ -88,4 +88,26 @@ while ($jupnumber < 10) {
     $jupnumber += 2;
 }
 // №12
-
+// №13
+echo "<br><br>";
+// №14
+$target = 10;
+$sum = 0;
+$i = 1;
+do {
+    $sum += $i;
+    $i++;
+} while ($i <= $target);
+echo "Сумма чисел до $target: $sum";
+echo "<br><br>";
+// №15
+$numberr = [2, 4, 3, 5];
+foreach ($numberr as $key => &$val) {
+    if ($val % 2 == 0) {
+        echo "Четные x2: " . ($val *= 2) . "<br>";
+    } else {
+        echo "Четные -1: " . ($val -= 1) . "<br>";
+    }
+}
+unset($val);
+echo "<br><br>";
